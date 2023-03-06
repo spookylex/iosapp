@@ -1,0 +1,8 @@
+# ios-ao3px
+Alexis Osipovs
+
+__Special Features:__
+I built my iOS application using SwiftUI rather than Storyboard and used an iPhone 14 Pro (running iOS 16.1) as my simulator. An additional feature I added to my application is the ability to delete bucket items by selecting the `Edit` button in the top right corner. You can either click the red button and confirm delete or you can click and drag to the left to swipe delete an item. 
+
+__Lessons Learned:__
+Working with SwiftUI was a much smoother process compared to my experience with React Native. I have learned about the benefits of Core Data and how programmatic UI platforms make it very efficient to create small yet robust applications. It required significantly less code to program through SwiftUI and dealing with objects was very convenient. It was also very helpful that the design of the app already fit the look and style of the Apple environment. I was able to customize features while also having it remain consistent and sleek across the entire application. It greatly decreased the amount of time it would normally take to create an app. I also learned how date pickers, toggle buttons, checkboxes, and other features are already conveniently integrated into Swift. The main challenge I ran into was trying to prepopulate data. Core Data only persists locally, so my pre-populated data may only appear in the ContentView on another machine, whereas it works normally on mine. Despite this, using Core Data to store persistent, local data was extremely convenient and very straightforward. The XC Data Model file was clear to understand and add attributes to the object model. Overall, I greatly enjoyed my experience using SwiftUI.
